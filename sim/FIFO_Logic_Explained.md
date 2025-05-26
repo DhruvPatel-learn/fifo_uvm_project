@@ -298,13 +298,13 @@ Buggy:    Read/write collision corrupts data
 ## Project Success Criteria
 
 Our FIFO passes if:
-✅ All data comes out in exact order it went in  
-✅ Full flag is accurate (prevents overflow)
-✅ Empty flag is accurate (prevents underflow)  
-✅ No data corruption during storage
-✅ Pointer wraparound works correctly
-✅ Simultaneous read/write operations work
-✅ Reset properly clears everything
+- All data comes out in exact order it went in  
+- Full flag is accurate (prevents overflow)
+- Empty flag is accurate (prevents underflow)  
+- No data corruption during storage
+- Pointer wraparound works correctly
+- Simultaneous read/write operations work
+- Reset properly clears everything
 
 **Final Test Result**: 
 - **PASS**: "Total Errors: 0" + "*** TEST PASSED ***"
@@ -487,6 +487,5 @@ This FIFO design is used in:
 4. **Professional documentation** and coding practices
 5. **Realistic testing scenarios** that mirror actual usage
 
-When you run this project and see "*** TEST PASSED ***", you've successfully verified that your FIFO will work correctly in real hardware - just like engineers do at Intel, AMD, NVIDIA, and other chip companies!
-
-This is exactly the kind of verification that prevents bugs in the processors, memory controllers, and communication chips that power our computers, phones, and countless other devices.
+When you run this project and see "*** TEST PASSED ***", you've successfully verified that your FIFO will work correctly in real hardware.
+This is the verification that prevents bugs in the processors, memory controllers, and communication chips that power our computers, phones, and countless other devices.
