@@ -13,19 +13,17 @@ This project implements a parameterized synchronous FIFO (First-In-First-Out) mo
 - **Multiple Test Scenarios:** Random operations, fill/empty tests, and boundary condition testing  
 
 ## File Structure
-fifo_verification/
-├── rtl/
-│ └── fifo.sv # Synthesizable FIFO module
-├── tb/
-│ ├── fifo_env.sv # UVM environment
-│ ├── fifo_driver.sv # UVM driver for stimulus generation
-│ ├── fifo_monitor.sv # UVM monitor for signal observation
-│ ├── fifo_scoreboard.sv # UVM scoreboard for checking
-│ ├── fifo_sequence.sv # UVM sequences and transaction class
-│ └── fifo_test.sv # UVM test classes and testbench top
-├── sim/
-│ └── run.do # ModelSim/Questa simulation script
-└── README.md # This file
+fifo.sv # Synthesizable FIFO module
+
+fifo_env.sv # UVM environment
+fifo_driver.sv # UVM driver for stimulus generation
+fifo_monitor.sv # UVM monitor for signal observation
+fifo_scoreboard.sv # UVM scoreboard for checking
+fifo_sequence.sv # UVM sequences and transaction class
+fifo_test.sv # UVM test classes and testbench top
+
+run.do # ModelSim/Questa simulation script
+README.md # This file
 
 ## FIFO Module Specifications
 
