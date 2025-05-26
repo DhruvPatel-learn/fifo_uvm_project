@@ -21,6 +21,6 @@ The simulation can be run using any standard SystemVerilog simulator supporting 
 
 ## Contact
 
-For questions or suggestions, please reach out.
+For questions or suggestions, please reach out Dhruv.Patel@unb.ca
 
 
