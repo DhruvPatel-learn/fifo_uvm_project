@@ -92,7 +92,6 @@ vsim -do run.do
 vlog -sv +incdir+../tb ../rtl/fifo.sv
 
 # Compile testbench
-```bash
 vlog -sv +incdir+../tb +incdir+$UVM_HOME/src $UVM_HOME/src/uvm_pkg.sv ../tb/fifo_test.sv
 
 # Run simulation
