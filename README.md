@@ -1,5 +1,5 @@
 fifo_uvm_project/
-│
+
 ├── README.md
 ├── rtl/
 │   └── fifo.sv
