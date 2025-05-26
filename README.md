@@ -1,8 +1,9 @@
 FIFO Verification Project
+
 Overview
 This project implements a parameterized synchronous FIFO (First-In-First-Out) module in SystemVerilog along with a comprehensive UVM (Universal Verification Methodology) testbench for verification. The project demonstrates industry-standard verification practices and serves as a learning platform for SystemVerilog design and UVM verification.
-Features
 
+Features
 Parameterized FIFO Design: Configurable data width and depth
 Synchronous Operation: Single clock domain design
 Standard FIFO Interface: Write enable, read enable, data ports, and status flags
@@ -105,14 +106,12 @@ run -all
 
 
 Expected Output
-
 Transaction logging with detailed FIFO operations
 Scoreboard reports showing write/read counts
 Pass/fail status with error summary
 Waveform file (fifo_waves.vcd) for debugging
 
 Test Scenarios
-
 Random Operations: Mixed read/write operations with randomized data
 Fill Test: Continuously write until FIFO is full, verify full flag
 Empty Test: Continuously read until FIFO is empty, verify empty flag
