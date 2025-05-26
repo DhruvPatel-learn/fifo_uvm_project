@@ -100,15 +100,15 @@ vsim -c fifo_tb_top +UVM_TESTNAME=fifo_comprehensive_test
 run -all
 
 # Expected Output
-Transaction logging with detailed FIFO operations
-Scoreboard reports showing write/read counts
-Pass/fail status with error summary
-Waveform file (fifo_waves.vcd) for debugging
+- Transaction logging with detailed FIFO operations
+- Scoreboard reports showing write/read counts
+- Pass/fail status with error summary
+- Waveform file (fifo_waves.vcd) for debugging
 
 # Test Scenarios
-Random Operations: Mixed read/write operations with randomized data
-Fill Test: Continuously write until FIFO is full, verify full flag
-Empty Test: Continuously read until FIFO is empty, verify empty flag
-Boundary Conditions: Test simultaneous read/write operations
-Data Integrity: Verify FIFO ordering (first-in, first-out)
+- Random Operations: Mixed read/write operations with randomized data
+- Fill Test: Continuously write until FIFO is full, verify full flag
+- Empty Test: Continuously read until FIFO is empty, verify empty flag
+- Boundary Conditions: Test simultaneous read/write operations
+- Data Integrity: Verify FIFO ordering (first-in, first-out)
 
