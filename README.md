@@ -96,7 +96,6 @@ vlog -sv +incdir+../tb ../rtl/fifo.sv
 vlog -sv +incdir+../tb +incdir+$UVM_HOME/src $UVM_HOME/src/uvm_pkg.sv ../tb/fifo_test.sv
 
 # Run simulation
-```bash
 vsim -c fifo_tb_top +UVM_TESTNAME=fifo_comprehensive_test
 run -all
 
