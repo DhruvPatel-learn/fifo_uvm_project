@@ -99,13 +99,13 @@ vlog -sv +incdir+../tb +incdir+$UVM_HOME/src $UVM_HOME/src/uvm_pkg.sv ../tb/fifo
 vsim -c fifo_tb_top +UVM_TESTNAME=fifo_comprehensive_test
 run -all
 
-**Expected Output**
+# Expected Output
 Transaction logging with detailed FIFO operations
 Scoreboard reports showing write/read counts
 Pass/fail status with error summary
 Waveform file (fifo_waves.vcd) for debugging
 
-**Test Scenarios**
+# Test Scenarios
 Random Operations: Mixed read/write operations with randomized data
 Fill Test: Continuously write until FIFO is full, verify full flag
 Empty Test: Continuously read until FIFO is empty, verify empty flag
