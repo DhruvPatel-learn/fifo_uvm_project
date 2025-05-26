@@ -88,7 +88,6 @@ vsim -do run.do
 3. Alternatively, compile and run manually:
 
 # Compile RTL
-```bash
 vlog -sv +incdir+../tb ../rtl/fifo.sv
 
 # Compile testbench
